@@ -3,9 +3,9 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-  'REPLACE_WITH_YOUR_MNEMONIC',
+  // 'REPLACE_WITH_YOUR_MNEMONIC',
   // remember to change this to your own phrase!
-  'YOUR_INFURA_URL'
+  // 'YOUR_INFURA_URL'
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
