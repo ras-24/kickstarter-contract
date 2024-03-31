@@ -9,7 +9,8 @@ if (typeof window !== "undefined" && typeof window.ethereum !== "undefined") {
 } else {
   // We are on the server *OR* the user is not running metamask
   const provider = new Web3.providers.HttpProvider(
-    "https://sepolia.infura.io/v3/163b133a5d7f4015b900436223730e99"
+    'YOUR_INFURA_SEPOLIA_URL_ENDPOINT'
+    // remember to change this to your own endpoint!
   );
   web3 = new Web3(provider);
 }
